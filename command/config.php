@@ -6,5 +6,5 @@ $mydbname		="address";		//数据库密码
 $mydbcharset	="utf8";
 
 
-
+$db = new mysql($mydbhost, $mydbuser, $mydbpw, $mydbname, '', $mydbcharset);
 ?>
